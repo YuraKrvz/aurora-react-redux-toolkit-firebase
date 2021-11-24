@@ -15,7 +15,7 @@
 //         <Route path='/' element={ <Header /> }>
 //             {isAuth ? (
 //               <>
-//                 <Route index element={<HomeUser />} />
+//                 <Route path='/' element={<HomeUser />} />
 //                 <Route path='/signIn' element={<SignIn />} />
 //                 <Route path='/signUp' element={<SignUp />} />
 //               </>
@@ -47,19 +47,11 @@ function App() {
     <BrowserRouter>
     <Header />
       <Routes>
-        {
-          isAuth ? (
-            <>
                 <Route path='/' element={<HomeUser />} />
                 <Route path='/signIn' element={<SignIn />} />
                 <Route path='/signUp' element={<SignUp />} />
-            </>
-          ) : (
-            <>
-              <Route path='/' element={<HomeGuest />} />
-            </>
-          )
-        }
+                <Route index element={<HomeGuest />} />
+
       </Routes>
       <Header />
     </BrowserRouter>

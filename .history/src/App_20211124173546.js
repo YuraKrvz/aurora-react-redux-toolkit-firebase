@@ -47,19 +47,11 @@ function App() {
     <BrowserRouter>
     <Header />
       <Routes>
-        {
-          isAuth ? (
-            <>
                 <Route path='/' element={<HomeUser />} />
                 <Route path='/signIn' element={<SignIn />} />
                 <Route path='/signUp' element={<SignUp />} />
-            </>
-          ) : (
-            <>
-              <Route path='/' element={<HomeGuest />} />
-            </>
-          )
-        }
+                <Route  element={<HomeGuest />} />
+
       </Routes>
       <Header />
     </BrowserRouter>

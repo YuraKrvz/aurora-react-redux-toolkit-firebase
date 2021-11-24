@@ -41,7 +41,7 @@ import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 
 function App() {
-  const isAuth = false
+  const isAuth = true
   return (
     <>
     <BrowserRouter>
@@ -60,6 +60,8 @@ function App() {
             </>
           )
         }
+                
+
       </Routes>
       <Header />
     </BrowserRouter>

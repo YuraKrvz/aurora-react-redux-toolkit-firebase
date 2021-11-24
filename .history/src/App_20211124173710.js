@@ -41,7 +41,7 @@ import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 
 function App() {
-  const isAuth = false
+  const isAuth = true
   return (
     <>
     <BrowserRouter>
@@ -50,16 +50,18 @@ function App() {
         {
           isAuth ? (
             <>
-                <Route path='/' element={<HomeUser />} />
+            <Route path='/' element={<HomeUser />} />
                 <Route path='/signIn' element={<SignIn />} />
                 <Route path='/signUp' element={<SignUp />} />
             </>
           ) : (
-            <>
+
               <Route path='/' element={<HomeGuest />} />
-            </>
+
           )
         }
+                
+
       </Routes>
       <Header />
     </BrowserRouter>
