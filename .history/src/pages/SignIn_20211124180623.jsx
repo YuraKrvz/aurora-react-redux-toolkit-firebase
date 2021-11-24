@@ -18,7 +18,7 @@ const SignIn = () => {
          SignIn
          <input ref={emailRef} placeholder='email' />
          <input ref={passwordRef} placeholder='password' />
-         <button onClick={handler} >Sign in</button>
+         <button onCLick={handler} >Sign in</button>
       </div>
    )
 }

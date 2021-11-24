@@ -14,7 +14,7 @@ const Header = () => {
                </li>
             </ul>
          </header>
-
+         <footer>footerfooterfooter</footer>
       </>
    )
 }

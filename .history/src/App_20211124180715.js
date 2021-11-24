@@ -8,7 +8,7 @@ import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 
 function App() {
-  const isAuth = false
+  const isAuth = true
   return (
     <>
     <BrowserRouter>
@@ -24,8 +24,6 @@ function App() {
           ) : (
             <>
               <Route path='/' element={<HomeGuest />} />
-              <Route path='/signIn' element={<SignIn />} />
-              <Route path='/signUp' element={<SignUp />} />
             </>
           )
         }

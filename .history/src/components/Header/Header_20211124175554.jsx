@@ -14,7 +14,8 @@ const Header = () => {
                </li>
             </ul>
          </header>
-
+         <Outlet />
+         <footer>footerfooterfooter</footer>
       </>
    )
 }

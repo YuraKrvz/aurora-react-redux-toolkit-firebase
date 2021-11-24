@@ -24,8 +24,6 @@ function App() {
           ) : (
             <>
               <Route path='/' element={<HomeGuest />} />
-              <Route path='/signIn' element={<SignIn />} />
-              <Route path='/signUp' element={<SignUp />} />
             </>
           )
         }
