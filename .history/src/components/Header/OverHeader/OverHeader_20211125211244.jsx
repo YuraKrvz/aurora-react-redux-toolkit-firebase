@@ -5,9 +5,8 @@ const OverHeader = () => {
    return (
       <>
          <div className={s.wrapper}>
-            <div />
             <h6 className={s.title}>We deliver Worldwide</h6>
-            <div className={s.wrapper_text}>
+            <div>
                <GlobalSvgSelector id="shape" />
                <p className={s.text}>Our stores</p>
             </div>

@@ -4,9 +4,9 @@
    display: flex;
    justify-content: space-between;
    align-items: center;
-   padding: 4px 25px;
+   padding: 4px 0px;
    font-weight: 600;
-   background-color: var(--color-white);
+   background-color: var(--color-silver);
 
    margin-bottom: 20px;
 }
@@ -23,7 +23,6 @@
    display: flex;
 }
 .text{
-   padding-left: 6px;
    font-family: Poppins;
    font-style: normal;
    font-size: 10px;

@@ -3,10 +3,7 @@
    height: 20px;
    display: flex;
    justify-content: space-between;
-   align-items: center;
-   padding: 4px 25px;
    font-weight: 600;
-   background-color: var(--color-white);
 
    margin-bottom: 20px;
 }
@@ -19,11 +16,7 @@
    letter-spacing: 0.8px;
    font-weight: 600;
 }
-.wrapper_text{
-   display: flex;
-}
 .text{
-   padding-left: 6px;
    font-family: Poppins;
    font-style: normal;
    font-size: 10px;
