@@ -1,13 +1,15 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { useAuthorization } from '../../hooks/useAuthorization';
+import OverHeader from './OverHeader/OverHeader';
 
 const Header = () => {
    const {isAuth, email} = useAuthorization();
    return (
       <>
          <header>
-         HEADER
+         <OverHeader />
+         HEADER / Aurora
          <h6>{email}</h6>
             <ul>
                <li>
