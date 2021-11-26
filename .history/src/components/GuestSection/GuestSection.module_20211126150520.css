@@ -1,0 +1,32 @@
+.guest_section{
+   background-image: url(./insta.svg);
+   height: 100vh;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   
+}
+.title{
+   display: flex;
+   flex-direction: column;
+   /* justify-content: center; */
+   align-items: center;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 60px;
+   line-height: 90px;
+   text-align: center;
+   color: var(--color-white);
+}
+.text{
+
+}
+.section_register_field{
+
+}
+.section_register_input{
+
+}
+.section_register_input{
+
+}

@@ -22,14 +22,13 @@
    letter-spacing: 0.95px;
    color: var(--color-black, --color-white);
    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
-   text-decoration: none;
+   text-decoration:none;
 }
 .input_wrap{
    position: relative;
 }
 .header_searcher{
    background-color: silver;
-   border-color: none;
    mix-blend-mode: normal;
    opacity: 0.24;
    border-radius: 3px;

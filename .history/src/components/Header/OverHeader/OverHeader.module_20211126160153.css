@@ -6,7 +6,8 @@
    align-items: center;
    padding: 4px 25px;
    font-weight: 600;
-   background-color: var(--color-silver, --color-white);
+   background-color: var(--color-white);
+   border-bottom-color: var(--color-black);
    margin-bottom: 20px;
 }
 .title{

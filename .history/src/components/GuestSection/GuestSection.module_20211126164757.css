@@ -48,6 +48,9 @@
    color: silver;
    font-size: 10px;
 }
+.section_register_input::target-text{
+   border-color: var(--color-very-silver);
+}
 .section_register_btn{
    width: 94px;
    height: 32px;

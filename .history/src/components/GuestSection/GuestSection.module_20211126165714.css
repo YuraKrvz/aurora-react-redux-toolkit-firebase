@@ -42,7 +42,7 @@
    height: 32px;
    margin-right: 12px;
    border-radius: 3px;
-   border-color: var(--color-silver);
+   border-color: none;
 }
 .section_register_input::placeholder{
    color: silver;

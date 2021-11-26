@@ -1,0 +1,38 @@
+.guest_section{
+   background-image: url(./insta.svg);
+   height: 100vh;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   display: flex;
+   flex-direction: column;
+   
+}
+.title{
+   margin: auto;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 60px;
+   line-height: 90px;
+   text-align: center;
+   color: var(--color-white);
+}
+.text{
+   margin: 0 auto;
+   width: 500px;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 12px;
+   line-height: 18px;
+   letter-spacing: 0.872727px;
+   color: var(--color-black);
+}
+.section_register_field{
+
+}
+.section_register_input{
+
+}
+.section_register_input{
+
+}

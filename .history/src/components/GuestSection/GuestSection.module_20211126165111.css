@@ -43,6 +43,7 @@
    margin-right: 12px;
    border-radius: 3px;
    border-color: var(--color-silver);
+   box-shadow: none;
 }
 .section_register_input::placeholder{
    color: silver;

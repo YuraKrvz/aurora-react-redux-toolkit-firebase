@@ -44,9 +44,12 @@
    border-radius: 3px;
    border-color: var(--color-silver);
 }
-.section_register_input::placeholder{
+.section_register_input::selection{
    color: silver;
    font-size: 10px;
+}
+.section_register_input::target-text{
+   border-color: var(--color-silver);
 }
 .section_register_btn{
    width: 94px;

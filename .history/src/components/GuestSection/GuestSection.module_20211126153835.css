@@ -32,10 +32,6 @@
    letter-spacing: 0.872727px;
    color: var(--color-black);
 }
-.input_wrap{
-   display: flex; 
-   align-items: center;
-}
 .section_register_input{
    padding: 7px 0 7px 11px;
    width: 335px;
@@ -44,15 +40,11 @@
    border-radius: 3px;
    border-color: var(--color-silver);
 }
-.section_register_input::placeholder{
-   color: silver;
-   font-size: 10px;
-}
 .section_register_btn{
    width: 94px;
    height: 32px;
    border-radius: 3px;
-   /* border: transparent; */
+   border: transparent;
    background-color: var(--color-very-black);
    color: var(--color-white);
    font-style: normal;
@@ -62,6 +54,4 @@
    text-align: center;
    letter-spacing: 1px;
    text-transform: uppercase;
-   cursor: pointer;
 }
-

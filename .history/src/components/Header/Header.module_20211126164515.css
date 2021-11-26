@@ -29,7 +29,7 @@
 }
 .header_searcher{
    background-color: silver;
-   border-color: none;
+   border-color: unset;
    mix-blend-mode: normal;
    opacity: 0.24;
    border-radius: 3px;
