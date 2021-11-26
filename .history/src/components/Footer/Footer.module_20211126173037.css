@@ -7,8 +7,6 @@
    padding-top: 26px;
 }
 .footer_item{
-   width: 146px;
-   height: 105px;
    margin-bottom: 38px;
 }
 .title{
@@ -22,15 +20,7 @@
 .list{
    list-style: none;
 }
-.list li {
-   cursor: pointer;
-}
-.social_icon{
-   display: flex;
-   justify-content: space-between;
-}
 .text{
-   margin-bottom: 6px;
    font-style: normal;
    font-weight: normal;
    font-size: 12px;

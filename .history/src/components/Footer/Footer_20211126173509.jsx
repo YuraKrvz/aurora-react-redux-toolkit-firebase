@@ -51,7 +51,7 @@ function Footer(){
                </div>
             </div>
             <div className={s.copy_right}>
-               <p>© Copyright, Aurora 2021. All Rights reserved.</p>
+               <p>© Copyright, Aurora 2020. All Rights reserved.</p>
             </div>
          </footer>
       </>

@@ -40,18 +40,15 @@ function Footer(){
                <div className={s.footer_item}>
                   <h6 className={s.title}>Social</h6>
                   <ul className={s.list}>
-                     <li className={s.social_icon}>
-                        <a href="#"><GlobalSvgSelector id='instagram' /></a>
-                        <a href="#"><GlobalSvgSelector id='twitter' /></a>
-                        <a href="#"><GlobalSvgSelector id='snapchat' /></a>
-                        <a href="#"><GlobalSvgSelector id='facebook' /></a>
-                        <a href="#"><GlobalSvgSelector id='youtube' /></a>
+                     <li>
+                        <GlobalSvgSelector id='instagram' />
+                        <GlobalSvgSelector id='twitter' />
+                        <GlobalSvgSelector id='snapchat' />
+                        <GlobalSvgSelector id='facebook' />
+                        <GlobalSvgSelector id='youtube' />
                      </li>
                   </ul>
                </div>
-            </div>
-            <div className={s.copy_right}>
-               <p>© Copyright, Aurora 2021. All Rights reserved.</p>
             </div>
          </footer>
       </>

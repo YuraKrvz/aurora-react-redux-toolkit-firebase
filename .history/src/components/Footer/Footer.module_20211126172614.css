@@ -1,0 +1,24 @@
+.footer{
+   background-color: var(--color-silver);
+}
+.footer_inner{
+   display: flex;
+   justify-content: center;
+}
+.footer_item{
+
+}
+.title{
+   margin-bottom: 17px;
+   font-family: var(--text-cormorant-garamond);
+   font-size: 16px;
+   line-height: 19px;
+   letter-spacing: 1.16364px;
+   color: var(--color-black);
+}
+.list{
+   list-style: none;
+}
+.text{
+
+}

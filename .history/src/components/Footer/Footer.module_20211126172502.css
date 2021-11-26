@@ -1,0 +1,23 @@
+.footer{
+   background-color: var(--color-silver);
+}
+.footer_inner{
+   display: flex;
+   justify-content: center;
+}
+.footer_item{
+
+}
+.title{
+   font-family: CormorantGaramond;
+   font-size: 16px;
+   line-height: 19px;
+   letter-spacing: 1.16364px;
+   color: var(--color-black);
+}
+.list{
+
+}
+.text{
+
+}

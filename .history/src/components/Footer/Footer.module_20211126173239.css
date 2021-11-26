@@ -22,12 +22,8 @@
 .list{
    list-style: none;
 }
-.list li {
-   cursor: pointer;
-}
 .social_icon{
    display: flex;
-   justify-content: space-between;
 }
 .text{
    margin-bottom: 6px;

@@ -7,9 +7,7 @@
    padding-top: 26px;
 }
 .footer_item{
-   width: 146px;
-   height: 105px;
-   margin-bottom: 38px;
+
 }
 .title{
    margin-bottom: 17px;
@@ -22,29 +20,11 @@
 .list{
    list-style: none;
 }
-.list li {
-   cursor: pointer;
-}
-.social_icon{
-   display: flex;
-   justify-content: space-between;
-}
 .text{
-   margin-bottom: 6px;
    font-style: normal;
    font-weight: normal;
    font-size: 12px;
    line-height: 19px;
    letter-spacing: 0.1px;
-   color: var(--color-black);
-}
-.copy_right{
-   padding-bottom: 14px;
-   font-style: normal;
-   font-weight: normal;
-   font-size: 9px;
-   line-height: 13px;
-   text-align: center;
-   letter-spacing: 0.5px;
    color: var(--color-black);
 }
