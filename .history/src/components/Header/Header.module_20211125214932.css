@@ -1,0 +1,25 @@
+/* 160 */
+.header{
+   width: 100%;   
+   height: 160px;
+}
+.header_body{
+   display: flex;
+   justify-content: space-between;
+   
+}
+.header_title{
+
+}
+.header_searcher{
+
+}
+.header_user{
+
+}
+.header_list{
+
+}
+.header_list__item{
+
+}
