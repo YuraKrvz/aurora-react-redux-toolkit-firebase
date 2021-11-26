@@ -16,7 +16,7 @@ const Header = () => {
          <header className={s.header}>
             <OverHeader />
             <div className={s.header_body}>
-               <NavLink to='/' className={s.header_title}>Aurora</NavLink>
+               <NavLink  className={s.header_title}>Aurora</NavLink>
                <label className={s.input_wrap}>
                   <input className={s.header_searcher} type="text" placeholder="What are you looking for?" />
                   <GlobalSvgSelector className={s.icon} id="fill" color='black' />

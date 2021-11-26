@@ -84,16 +84,7 @@ export default function GlobalSvgSelector({id, className, color = 'white'}){
       );
       case 'ball':
          return(
-            <svg width="23" height="22" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-               <g clip-path="url(#clip0_1_427)">
-               <ellipse cx="11.9458" cy="11" rx="11.0542" ry="11" fill="#F2DA91"/>
-               </g>
-               <defs>
-               <clipPath id="clip0_1_427">
-               <rect width="22.1084" height="22" fill={color} transform="translate(0.891602)"/>
-               </clipPath>
-               </defs>
-            </svg>
+            <div style={{color, width: '5px', height: '5px', borderRadius: '50%'}}></div>
          )
       default: 
          return null;

@@ -3,13 +3,12 @@ import s from './Header.module.css';
 import { NavLink } from 'react-router-dom';
 import GlobalSvgSelector from '../../source/GlobalSvgSelector';
 import OverHeader from './OverHeader/OverHeader';
-import Authorization from '../Authorization/Authorization';
 
 const Header = () => {
    // const root = document.querySelector(':root');
    const root = document.documentElement; 
          root.style.setProperty('--color-black', 'red')
-   console.log(root.style['--color-black'])
+   console.log(root.style.getProperty('--color-black'))
 
    return (
       <>
@@ -22,7 +21,7 @@ const Header = () => {
                   <GlobalSvgSelector className={s.icon} id="fill" color='black' />
                </label>
                <div>
-                  <Authorization />
+                  <div className={s.header_user}>Sign in  |  Register <GlobalSvgSelector id="basket" color='black'/></div>
                </div>
             </div>
             <ul className={s.header_list}>

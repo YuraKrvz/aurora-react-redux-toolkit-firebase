@@ -1,0 +1,16 @@
+.login_field{
+   display: flex;
+}
+.login{
+   margin-right: 17px;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 11px;
+   line-height: 16px;
+   text-align: right;
+   letter-spacing: 1px;
+   color: var(--color-very-black);
+}
+.header_user{
+   text-decoration: none;
+}

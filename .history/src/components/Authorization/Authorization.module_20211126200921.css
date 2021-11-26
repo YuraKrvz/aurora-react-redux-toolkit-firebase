@@ -1,0 +1,9 @@
+.login{
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 16px;
+text-align: right;
+letter-spacing: 1px;
+color: var(--color-very-black);
+}
