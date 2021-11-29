@@ -25,7 +25,7 @@
 .section_register_field{
    display: block;
    margin: 32px auto;
-   width: 450px;
+   min-width: 450px;
    height: 82px;
 }
 .text{

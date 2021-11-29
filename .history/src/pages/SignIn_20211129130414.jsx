@@ -29,13 +29,19 @@ const SignIn = () => {
 
    return (
       <div>
-         <div className={s.section_register_field}>
-            <label className={s.input_wrap}>
-               <input className={s.section_register_input} ref={emailRef} type="email" placeholder='Your email address' />
-               <input className={s.section_register_input} ref={passwordRef} type="password" placeholder='Your password' />
-               <button className={s.section_register_btn} onClick={handler} >Sign In</button>
-            </label>
-         </div>
+         SignIn
+         <input ref={emailRef} placeholder='email' />
+         <input ref={passwordRef} placeholder='password' />
+         <button onClick={handler} >Sign in</button>
+
+         <label className={s.input_wrap}>
+            <input className={s.section_register_input} type="text" placeholder='Your email address' />
+            <button className={s.section_register_btn} >register</button>
+         </label>
+         <label className={s.input_wrap}>
+            <input className={s.section_register_input} type="text" placeholder='Your email address' />
+            <button className={s.section_register_btn} >register</button>
+         </label>
       </div>
    )
 }

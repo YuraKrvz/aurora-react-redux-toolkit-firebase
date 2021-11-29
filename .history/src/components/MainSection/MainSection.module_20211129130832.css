@@ -54,8 +54,8 @@
    font-size: 10px;
 }
 .section_register_btn{
-   min-width: 94px;
-   height: 32px;
+   width: 194px;
+   height: 132px;
    border-radius: 3px;
    /* border: transparent; */
    background-color: var(--color-very-black);
