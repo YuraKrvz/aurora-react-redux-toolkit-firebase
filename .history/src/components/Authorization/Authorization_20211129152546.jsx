@@ -23,6 +23,7 @@ const Authorization = () => {
             <div className={s.login_field}> 
                <p className={s.login}>Hi, {email}!</p>
                <GlobalSvgSelector id="basket" color='black'/>
+               // {/*<GlobalSvgSelector id="ball" color='black'/>*/}
             </div>
          )}
          

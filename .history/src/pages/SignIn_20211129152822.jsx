@@ -6,8 +6,8 @@ import {setLogin} from '../store/slices/userSlice';
 
 const SignIn = () => {
    const dispatch = useDispatch();
-   let emailRef = useRef();
-   let passwordRef = useRef();
+   const emailRef = useRef();
+   const passwordRef = useRef();
 
    async function handler(){
       try{
