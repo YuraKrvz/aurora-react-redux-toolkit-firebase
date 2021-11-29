@@ -1,10 +1,11 @@
 import React from 'react';
-import {BrowserRouter} from 'react-router-dom';
+import { BrowserRouter} from 'react-router-dom';
 import CustomRouter from './components/CustomRouter/CustomRouter'
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import {Provider} from 'react-redux';
 import {store} from './store';
+// import './firebase';
 
 function App() {
 
