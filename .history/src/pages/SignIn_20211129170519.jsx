@@ -42,7 +42,7 @@ const SignIn = () => {
 
             </label>
             {error && <h1
-               style={{fontSize: '12px', color: 'red', textAlign: 'center'}}
+               style={{fontSize: '12px', color: 'red'}}
                >Account is not found</h1>}
          </div>
       </>

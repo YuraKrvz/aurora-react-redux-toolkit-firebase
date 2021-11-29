@@ -30,7 +30,7 @@ const SignUp = () => {
                </label>
                {error && <h1
                   style={{fontSize: '12px', color: 'red', textAlign: 'center'}}
-                  >value is incorrect</h1>}
+                  >Error</h1>}
             </div>
          </div>
       </>

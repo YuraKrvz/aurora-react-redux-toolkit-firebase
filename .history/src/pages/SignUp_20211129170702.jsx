@@ -13,9 +13,9 @@ const SignUp = () => {
          passwordRef = passwordRef.current.value = '';
          setError(false);
       }
-      catch(e){
+      catch{
          setError(true);
-         console.error(e)
+         alert('error in sign up')
       }
    }
 
@@ -24,13 +24,10 @@ const SignUp = () => {
          <div style={{height: '40vh', width: '800px'}} className={s.section_register_field} >
             <div>
                <label className={s.input_wrap}>
-                  <input className={s.section_register_input} ref={emailRef} type="email" placeholder='Your email address' />
-                  <input className={s.section_register_input} ref={passwordRef} type="password" placeholder='Your password' />
-                  <button className={s.section_register_btn} onClick={handler} >Sign Up</button>
+               <input className={s.section_register_input} ref={emailRef} type="email" placeholder='Your email address' />
+               <input className={s.section_register_input} ref={passwordRef} type="password" placeholder='Your password' />
+               <button className={s.section_register_btn} onClick={handler} >Sign Up</button>
                </label>
-               {error && <h1
-                  style={{fontSize: '12px', color: 'red', textAlign: 'center'}}
-                  >value is incorrect</h1>}
             </div>
          </div>
       </>

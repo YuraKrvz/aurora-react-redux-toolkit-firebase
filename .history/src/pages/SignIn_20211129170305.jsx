@@ -41,9 +41,7 @@ const SignIn = () => {
                <button className={s.section_register_btn} onClick={handler} >Sign In</button>
 
             </label>
-            {error && <h1
-               style={{fontSize: '12px', color: 'red', textAlign: 'center'}}
-               >Account is not found</h1>}
+            {error && <h1>ERROR!!!</h1>}
          </div>
       </>
    )
