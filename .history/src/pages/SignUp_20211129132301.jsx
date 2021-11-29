@@ -16,8 +16,8 @@ const SignUp = () => {
 
    return (
       <>
-         <div style={{height: '40vh', width: '800px'}} className={s.section_register_field} >
-            <div>
+         <div className={s.section_register_field}>
+            <div style={{minHeight: '100%', display: 'flex', flexDirection: 'column'}}>
                <label className={s.input_wrap}>
                <input className={s.section_register_input} ref={emailRef} type="email" placeholder='Your email address' />
                <input className={s.section_register_input} ref={passwordRef} type="password" placeholder='Your password' />

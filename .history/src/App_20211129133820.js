@@ -13,9 +13,11 @@ function App() {
     <>
       <Provider store={store}>
         <BrowserRouter>
+          <div style={{minHeight: '100%', display: 'flex', flexDirection: 'column'}}>
             <Header />
             <CustomRouter />
             <Footer />
+          </div>
         </BrowserRouter>
       </Provider>
     </>

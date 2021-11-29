@@ -1,4 +1,5 @@
 .section{
+
    height: 100vh;
    background-position: center;
    background-size: cover;
@@ -22,7 +23,7 @@
    color: var(--color-white);
 }
 .section_register_field{
-   display: block;
+   /* display: block; */
    margin: 32px auto;
    width: 450px;
    height: 82px;

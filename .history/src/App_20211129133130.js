@@ -10,15 +10,16 @@ import {store} from './store';
 function App() {
 
   return (
-    <>
-      <Provider store={store}>
-        <BrowserRouter>
-            <Header />
-            <CustomRouter />
-            <Footer />
-        </BrowserRouter>
-      </Provider>
-    </>
+    <div style={{minHeight: '100%', display: 'flex', flexDirection: 'column'}}>
+    
+    <Provider store={store}>
+      <BrowserRouter>
+        <Header />
+        <CustomRouter />
+        <Footer />
+      </BrowserRouter>
+    </Provider>
+    </div>
   );
 }
 

@@ -25,7 +25,7 @@
    display: block;
    margin: 32px auto;
    width: 450px;
-   height: 82px;
+   height: 100vh;
 }
 .text{
    margin-bottom: 14px;
