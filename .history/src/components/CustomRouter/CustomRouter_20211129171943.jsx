@@ -3,7 +3,6 @@ import HomeGuest from '../../pages/HomeGuest';
 import HomeUser from '../../pages/HomeUser';
 import SignIn from '../../pages/SignIn';
 import SignUp from '../../pages/SignUp';
-import AccountPage from '../../pages/AccountPage';
 import {useAuthorization} from '../../hooks/useAuthorization';
 
 const CustomRouter = () => {
