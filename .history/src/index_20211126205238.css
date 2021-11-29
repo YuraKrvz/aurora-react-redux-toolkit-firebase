@@ -1,0 +1,25 @@
+@import '~normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap');
+
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--text-regular-poppins);
+  color: var(--color-very-black);
+}
+
+:root{
+  --text-regular-poppins: 'Poppins';
+  --text-cormorant-garamond: 'Cormorant Garamond';
+
+  --color-black: #333333;
+  --color-very-black: #000000;
+  --color-white:  #FFFFFF;
+  --color-silver: #F7F7F7;
+
+  --src-guest: './insta.svg';
+  --src-user: './insta.svg';
+  --bg-wall: var(--src-guest);
+}

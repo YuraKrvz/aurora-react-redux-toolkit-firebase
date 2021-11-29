@@ -1,9 +1,9 @@
-import GuestSection from "../components/GuestSection/GuestSection"
+import MainSection from "../components/MainSection/MainSection"
 
 const HomeGuest = () => {
    return (
       <>
-        <GuestSection /> 
+        <MainSection /> 
       </>
    )
 }

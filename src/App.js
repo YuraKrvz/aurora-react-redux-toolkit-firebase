@@ -12,7 +12,7 @@ import {store} from './store';
 
 
 function App() {
-  const isAuth = false
+  const isAuth = true
   return (
     <Provider store={store}>
       <BrowserRouter>

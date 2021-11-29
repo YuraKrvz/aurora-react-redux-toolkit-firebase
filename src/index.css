@@ -18,4 +18,8 @@
   --color-very-black: #000000;
   --color-white:  #FFFFFF;
   --color-silver: #F7F7F7;
+
+  --src-guest: './insta.svg';
+  --src-user: './user.svg';
+  --bg-wall: var(--src-guest);
 }

@@ -1,7 +1,11 @@
-const HomeUser = () => {
+import MainSection from "../components/MainSection/MainSection"
+
+
+function HomeUser(){
+
    return (
       <>
-         home user
+         <MainSection />
       </>
    )
 }

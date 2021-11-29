@@ -6,11 +6,6 @@ import OverHeader from './OverHeader/OverHeader';
 import Authorization from '../Authorization/Authorization';
 
 const Header = () => {
-   // const root = document.querySelector(':root');
-   const root = document.documentElement; 
-         root.style.setProperty('--color-black', 'red')
-   console.log(root.style['--color-black'])
-
    return (
       <>
          <header className={s.header}>
