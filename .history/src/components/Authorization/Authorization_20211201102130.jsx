@@ -10,16 +10,13 @@ const Authorization = () => {
       <>
          {!isAuth ? (
             <div >
-               <NavLink to='/signIn' className={s.header_user} >
+               <NavLink to='/signIn' className={s.header_user} activeClassName="">
                   Sign in
-               </NavLink>
-               &nbsp;  
+               </NavLink>  
                |  
-               &nbsp;
                <NavLink to='/signUp' className={s.header_user}>
                   Sign Up
                </NavLink> 
-               &nbsp;
                <GlobalSvgSelector id="basket" color='black'/>
             </div>
          ) : (

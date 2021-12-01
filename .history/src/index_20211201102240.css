@@ -27,6 +27,7 @@ html, body{
   --bg-wall: var(--src-guest);
 }
 
-.active{
-  color: yellowgreen;
+.active-nav{
+  color: red;
+  background-color: yellowgreen;
 }

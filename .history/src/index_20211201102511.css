@@ -28,5 +28,6 @@ html, body{
 }
 
 .active{
-  color: yellowgreen;
+  color: red;
+  background-color: yellowgreen;
 }

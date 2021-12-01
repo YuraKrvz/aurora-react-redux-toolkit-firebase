@@ -19,7 +19,6 @@ const Authorization = () => {
                <NavLink to='/signUp' className={s.header_user}>
                   Sign Up
                </NavLink> 
-               &nbsp;
                <GlobalSvgSelector id="basket" color='black'/>
             </div>
          ) : (

@@ -27,6 +27,3 @@ html, body{
   --bg-wall: var(--src-guest);
 }
 
-.active{
-  color: yellowgreen;
-}
