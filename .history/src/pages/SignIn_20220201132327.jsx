@@ -41,12 +41,10 @@ const SignIn = () => {
                <button className={s.section_register_btn} onClick={handler} >Log In</button>
 
             </label>
-
-            { error && <h1
+            123
+            {error && <h1
                style={{fontSize: '12px', color: 'red', textAlign: 'center'}}
-               >Account is not found</h1> }
-               <p className={s.quotes}> "Please register or use this account: aa@aa.com and password: Aa@aa.com" </p>
-               
+               >Account is not found</h1>}
          </div>
       </>
    )

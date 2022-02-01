@@ -42,11 +42,10 @@ const SignIn = () => {
 
             </label>
 
-            { error && <h1
+            {error && <h1
                style={{fontSize: '12px', color: 'red', textAlign: 'center'}}
-               >Account is not found</h1> }
-               <p className={s.quotes}> "Please register or use this account: aa@aa.com and password: Aa@aa.com" </p>
-               
+               >Account is not found</h1>}
+            "Please register or use this account: "
          </div>
       </>
    )

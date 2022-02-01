@@ -25,7 +25,7 @@
    display: block;
    margin: 32px auto;
    width: 450px;
-   height: 40vh;
+   height: 82px;
 }
 .text{
    margin-bottom: 14px;
@@ -68,4 +68,8 @@
    text-transform: uppercase;
    cursor: pointer;
 }
-
+.quotes{
+   margin-top: 50px;
+   font-size: 16px;
+   text-align: center;
+}

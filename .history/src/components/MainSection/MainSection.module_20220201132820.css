@@ -1,5 +1,4 @@
 .section{
-
    height: 100vh;
    background-position: center;
    background-size: cover;
@@ -54,7 +53,7 @@
    font-size: 10px;
 }
 .section_register_btn{
-   width: 194px;
+   min-width: 94px;
    height: 32px;
    border-radius: 3px;
    /* border: transparent; */
@@ -69,4 +68,6 @@
    text-transform: uppercase;
    cursor: pointer;
 }
-
+.quotes{
+   font-size: 16px;
+}
